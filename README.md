@@ -1,4 +1,4 @@
-# MPAE: Motif-Prototype Aware Graph Autoencoder
+# MPGAE: Motif-Prototype Aware Graph Autoencoder
 
 > **Paper**: *Decoupling Graph Autoencoders for Heterophily: A Motif-Prototype Aware Approach*
 
@@ -11,7 +11,7 @@
 
 ## Project Layout
 ```
-MPAE_release/
+MPGAE_release/
 ├── autoencoder.py              # GraphAutoEncoder definition
 ├── conv.py                     # Encoder building blocks
 ├── encoder.py                  # Motif-Prototype encoder
@@ -30,8 +30,8 @@ MPAE_release/
 ## Quick Start
 ```bash
 # 1. 安装依赖
-conda create -n mpae python=3.10 -y
-conda activate mpae
+conda create -n MPGAE python=3.10 -y
+conda activate MPGAE
 pip install -r requirements.txt
 
 # 2. 准备数据 (详见 data/README.md)
